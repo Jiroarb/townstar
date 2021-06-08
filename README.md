@@ -33,7 +33,9 @@ If there is any issue, please report through github.
 # Responsibility
 I have no responsibility if Gala Games decide to ban on usage of this script. 
 
-# if you found helpful and want to support me by donate
+# Support
+If you find this script helpful and want to support me by donate:
+
 ERC-20/BSC : 0x457B79efEF26839F3BB5743E525cA9772f92F8aD
 
 BTC : 13KLr4qrppfKDmLD2RoRgueg3pu6ohciKq
