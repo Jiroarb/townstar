@@ -171,19 +171,48 @@
         lumberMillCheckBox.type = "checkbox";
         lumberMillCheckBox.style.height = "12px";
         lumberMillCheckBox.setAttribute("id", "LumberMillCheckBox");
-        if(sLumberMill != null){lumberMillCheckBox.checked = sLumberMill;}
+        if(sLumberMill != null){
+            if(sLumberMill =="false"){
+                lumberMillCheckBox.checked = false;
+            }else{
+                lumberMillCheckBox.checked = true;
+            }
+        }
+        
         waterFacilityCheckBox.type = "checkbox";
         waterFacilityCheckBox.style.height = "12px";
         waterFacilityCheckBox.setAttribute("id", "WaterFacilityCheckBox");
-        if(sWaterFacility != null){waterFacilityCheckBox.checked = sWaterFacility;}
+        if(sWaterFacility != null){
+            if(sWaterFacility =="false"){
+                waterFacilityCheckBox.checked = false;
+            }else{
+                waterFacilityCheckBox.checked = true;
+            }
+        }
+        
         RefineryCheckBox.type = "checkbox";
         RefineryCheckBox.style.height = "12px";
         RefineryCheckBox.setAttribute("id", "RefineryCheckBox");
-        if(sRefinery != null){RefineryCheckBox.checked = sRefinery;}
+        if(sRefinery != null){
+            if(sRefinery =="false"){
+                RefineryCheckBox.checked = false;
+            }else{
+                RefineryCheckBox.checked = true;
+            }
+        }
+        
         AutoCompleteCheckBox.type = "checkbox";
         AutoCompleteCheckBox.style.height = "12px";
         AutoCompleteCheckBox.setAttribute("id", "AutoCompleteCheckBox");
-        if(sAutoComplete != null){AutoCompleteCheckBox.checked = sAutoComplete;}
+        if(sAutoComplete != null){
+            if(sAutoComplete =="false"){
+                AutoCompleteCheckBox.checked = false;
+            }else{
+                AutoCompleteCheckBox.checked = true;
+            }
+        }
+        
+        
         LaborCost.type = "number";
         LaborCost.style.height = "10px";
         LaborCost.style.width = "50px";
@@ -200,13 +229,26 @@
         StartSellingCheckBox.type = "checkbox";
         StartSellingCheckBox.style.height = "12px";
         StartSellingCheckBox.setAttribute("id", "StartSellingCheckBox");
-        if(sStartSelling != null){StartSellingCheckBox.checked = sStartSelling;}
+        if(sStartSelling != null){
+            if(sStartSelling =="false"){
+                StartSellingCheckBox.checked = false;
+            }else{
+                StartSellingCheckBox.checked = true;
+            }
+        }
 
+        
         ClearConsoleLogCheckBox.type = "checkbox";
         ClearConsoleLogCheckBox.style.height = "12px";
         ClearConsoleLogCheckBox.setAttribute("id", "ClearConsoleCheckBox");
-        ClearConsoleLogCheckBox.checked = true;
-        if(sClearConsole != null){ClearConsoleLogCheckBox.checked = sClearConsole;}
+        ClearConsoleLogCheckBox.checked = true;  
+        if(sClearConsole != null){
+            if(sClearConsole =="false"){
+                ClearConsoleLogCheckBox.checked = false;
+            }else{
+                ClearConsoleLogCheckBox.checked = true;
+            }
+        }
 
 
         node.appendChild(Loadbtn);
