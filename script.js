@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       Jiro  -Modify from exisiting scripts from  Groove
-// @match        https://townstar.sandbox-games.com/launch/
+// @match        *://*.sandbox-games.com/*
 // @grant        GM_setValue
 // @grant        GM_listValues
 // @grant        GM_getValue
